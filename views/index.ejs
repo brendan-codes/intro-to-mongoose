@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Hello Express!</h1>
+	<a href="/cat">Build a Cat!</a>
+	<hr>
+	<p>
+		<% for(var cat in cats){ %>
+
+			<p>Name: <%= cats[cat].name %> </p>
+			<p>Age: <%= cats[cat].age %> </p>
+
+		<% } %>	
+	</p>
+</body>
+</html>
